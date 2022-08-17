@@ -7967,8 +7967,8 @@ CCH        CH3CHCH2               CH3        CH2CHC2H                           
 C2H3       CH3CHCH2               CH3        CH2CHCHCH2                                    1.200e-12  0.000e+00  2.520e+03 3.00e+00 1.00e+02 logn  4     50    200  3  7803 1  1
 CN         CH3CHCH2               C2H3       CH3CN                                         1.730e-10  0.000e+00 -1.020e+02 1.32e+00 3.00e+01 logn  4     50    200  3  7804 1  1
 CH3NH2     C3H5+                  CH3CHCH2   CH2NH2+                                       4.860e-10  0.000e+00  0.000e+00 1.58e+00 0.00e+00 logn  4    300    300  3  7805 1  1
-C          CH3CHCH2               CH3        CH2CCH                                        2.000e-10  0.000e+00  0.000e+00 1.60e+00 0.00e+00 logn  4     10    800  3  7808 1  2
-C          CH3CHCH2               CH3        CH2CCH                                        2.000e-10  0.000e+00  0.000e+00 1.60e+00 0.00e+00 logn  4     10    800  3  7809 2  2
+C          CH3CHCH2               CH3        CH2CCH                                        2.340e-10  0.000e+00  0.000e+00 1.60e+00 0.00e+00 logn  4     10    300  3  7808 1  2
+!C          CH3CHCH2               C4H5       H                                             6.600e-11  0.000e+00  0.000e+00 1.60e+00 0.00e+00 logn  4     10    300  3  7809 2  2
 O          CH3CHCH2               C2H5       HCO                                           3.600e-12  0.000e+00  0.000e+00 3.00e+00 0.00e+00 logn  4     10    800  3  7810 1  2
 ! 1-Cyano-Propargyl Radical (CNCHCCH)
 ! Note: The formation route was found to occur every collision by Guo et al. PCCP (2006) (Kaiser group)
