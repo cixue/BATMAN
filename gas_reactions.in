@@ -7987,4 +7987,30 @@ HCO+       CNCHCCH                HCO        CN+        l-C3H2                  
 HCO+       CNCHCCH                HCO        CN+        l-C3H2                             1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7821 1  1
 H3O+       CNCHCCH                H2O        HCN+       l-C3H2                             1.000e+00  2.057e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7822 1  1
 H3O+       CNCHCCH                H2O        HCN+       l-C3H2                             1.000e+00  2.057e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7823 1  1
-! 
+! *********************************
+! 1-Cyano-1,3-Butadiene (C4H5CN) C.X. Aug 2022
+! Morales et al. 2011 measured the rate of CN+CH2CHCHCH2 as, in an Arrhenius expression, k(T) = (4.8+/-0.1)x10^-10 exp[(−77 ± 10) J mol−1 / (8.31 J mol-1 K-1 x T)] cm^3 molecule^−1 s^−1 with T in Kelvin.
+! Branching ratio of 99:1 for cyanobutadiene:pyridine is derived from Parker et al. 2015.
+! Rate coefficients of ion-molecule reactions are calculated based on dipole and polarizability:
+! C4H5CN: 4.814 D and 11.178 A^3 (calculated, from Bob McMahon)
+! c-C5H5N: 2.190 D and 9.493 A^3 (measured, Nelson Jr. et al. 1967, Gray et al. 1984)
+! *********************************
+CN         CH2CHCHCH2             H          C4H5CN                                        4.752e-10  0.000e+00  9.266e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12001 1  1
+CN         CH2CHCHCH2             H          c-C5H5N                                       4.800e-12  0.000e+00  9.266e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12002 1  1
+HCO+       C4H5CN                 CO         CH3CHCH2   C2N+                               1.000e+00  1.694e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12003 1  1
+H3O+       C4H5CN                 H2O        CH3CHCH2   C2N+                               1.000e+00  1.994e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12004 1  1
+H3+        C4H5CN                 H2         CH3CHCH2   C2N+                               1.000e+00  4.589e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12005 1  1
+He+        C4H5CN                 He         C4H5+      CN                                 1.000e+00  3.998e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12006 1  1
+H+         C4H5CN                 H          C4H5+      CN                                 5.000e-01  7.851e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12007 1  1
+H+         C4H5CN                 H2         C5H4N+                                        5.000e-01  7.851e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12008 1  1
+C+         C4H5CN                 C          C4H5+      CN                                 3.333e-01  2.417e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12009 1  1
+C+         C4H5CN                 CN         C5H5+                                         3.333e-01  2.417e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12010 1  1
+C+         C4H5CN                 C2N+       CH2CHC2H   H                                  3.333e-01  2.417e-09  5.003e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12011 1  1
+HCO+       c-C5H5N                CO         CH3CHCH2   C2N+                               1.000e+00  1.561e-09  2.470e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12012 1  1
+H3+        c-C5H5N                H2         CH3CHCH2   C2N+                               1.000e+00  4.229e-09  2.470e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12013 1  1
+H3O+       c-C5H5N                H2O        CH3CHCH2   C2N+                               1.000e+00  1.837e-09  2.470e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12014 1  1
+He+        c-C5H5N                He         C4H5+      CN                                 1.000e+00  3.685e-09  2.470e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12015 1  1
+H+         c-C5H5N                H          C4H5+      CN                                 3.333e-01  7.235e-09  2.470e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12016 1  1
+H+         c-C5H5N                H2         C5H4N+                                        3.333e-01  7.235e-09  2.470e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12017 1  1
+H+         c-C5H5N                CH3CHCH2   C2N+                                          3.333e-01  7.235e-09  2.470e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12018 1  1
+C+         c-C5H5N                C          C4H5+      CN                                 1.000e+00  2.228e-09  2.470e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12019 1  1
