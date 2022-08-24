@@ -7992,3 +7992,24 @@ HCO+       CNCHCCH                HCO        CN+        l-C3H2                  
 H3O+       CNCHCCH                H2O        HCN+       l-C3H2                             1.000e+00  2.057e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7822 1  1
 H3O+       CNCHCCH                H2O        HCN+       l-C3H2                             1.000e+00  2.057e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7823 1  1
 CCH        CH3                    H          CH2CCH                                        1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 11888 1  1
+!*********** C3H4+ and C3H5+ DR UPDATE***********                                                                                                                         
+! Added by Alex Byrne on 8/4/22
+! C3H4+ DR branching ratios from Geppert et al. 2004,
+! overall rate constant (supposedly) from Floreschu-Mitchell
+! and Mitchell 2006, listed in Loison et al 2017.
+! C3H5+ branching ratios from Angelova et al. 2004 and 
+! and Loison et al. 2017. Overall rate constant from 
+! Loison et al. 2017                                                                                                                                                 
+!************************************************                                                                                                                         
+C3H4+      e-                     H          CH2CCH                                        6.000e-07 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11889 1  1
+C3H4+      e-                     CH2        C2H2                                          4.000e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11890 1  1
+C3H4+      e-                     CCH        CH3                                           1.000e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11891 1  1
+C3H4+      e-                     H          H          c-C3H2                             1.000e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11892 1  1
+C3H4+      e-                     H          H          l-C3H2                             1.000e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11893 1  1
+C3H5+      e-                     H2         CH2CCH                                        4.200e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11894 1  1
+C3H5+      e-                     H          H          CH2CCH                             1.100e-07 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11895 1  1
+C3H5+      e-                     H          CH3CCH                                        7.000e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11896 1  1
+C3H5+      e-                     H          H2         c-C3H2                             1.000e-07 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11897 1  1
+C3H5+      e-                     H          H2         l-C3H2                             5.000e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11898 1  1
+C3H5+      e-                     C2H2       CH3                                           4.700e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11899 1  1
+C3H5+      e-                     H          CH2        C2H2                               4.700e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 11900 1  1
