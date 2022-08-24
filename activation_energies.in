@@ -1,7 +1,11 @@
 !                                                         EA(K)
+KH2        Kl-C3H                 -> KCH2CCH                                                 3.60e+03   From Jean-Christophe Loison         
+KH2        Kc-C3H                 -> Kc-C3H2    KH                                           6.70e+03   From Jean-Christophe Loison
 KH         KCH3CCH                -> KC3H5                                                   2.01e+03   From Jean-Christophe Loison         
 KH         KCH3CHCH2              -> KCH2CH2CH3                                              1.60e+03   From Jean-Christophe Loison         
 KH         KC3H8                  -> KCH2CH2CH3 KH2                                          4.00e+03   From Jean-Christophe Loison         
+JH2        Jl-C3H                 -> JCH2CCH                                                 3.60e+03   From Jean-Christophe Loison         
+JH2        Jc-C3H                 -> Jc-C3H2    JH                                           6.70e+03   From Jean-Christophe Loison
 JH         JCH3CCH                -> JC3H5                                                   2.01e+03   From Jean-Christophe Loison         
 JH         JCH3CHCH2              -> JCH2CH2CH3                                              1.60e+03   From Jean-Christophe Loison         
 JH         JC3H8                  -> JCH2CH2CH3 JH2                                          4.00e+03   From Jean-Christophe Loison
@@ -39,8 +43,8 @@ JH2        JC2                    -> JCCH       JH                              
 JH2        JCCH                   -> JC2H2      JH                                           4.20e+03
 JH2        JC3                    -> Jc-C3H     JH                                           4.20e+03
 JH2        JC3                    -> Jl-C3H     JH                                           4.20e+03
-JH2        Jc-C3H                 -> Jc-C3H2    JH                                           4.20e+03
-JH2        Jl-C3H                 -> Jl-C3H2    JH                                           4.20e+03
+!JH2        Jc-C3H                 -> Jc-C3H2    JH                                           4.20e+03
+!JH2        Jl-C3H                 -> Jl-C3H2    JH                                           4.20e+03
 JH2        JC4                    -> JC4H       JH                                           4.20e+03
 JH2        JC4H                   -> JC4H2      JH                                           4.20e+03
 JH2        JC5                    -> JC5H       JH                                           4.20e+03
@@ -99,8 +103,8 @@ KH2        KC2                    -> KCCH       KH                              
 KH2        KCCH                   -> KC2H2      KH                                           4.20e+03
 KH2        KC3                    -> Kc-C3H     KH                                           4.20e+03
 KH2        KC3                    -> Kl-C3H     KH                                           4.20e+03
-KH2        Kc-C3H                 -> Kc-C3H2    KH                                           4.20e+03
-KH2        Kl-C3H                 -> Kl-C3H2    KH                                           4.20e+03
+!KH2        Kc-C3H                 -> Kc-C3H2    KH                                           4.20e+03
+!KH2        Kl-C3H                 -> Kl-C3H2    KH                                           4.20e+03
 KH2        KC4                    -> KC4H       KH                                           4.20e+03
 KH2        KC4H                   -> KC4H2      KH                                           4.20e+03
 KH2        KC5                    -> KC5H       KH                                           4.20e+03
