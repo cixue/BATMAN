@@ -1,4 +1,10 @@
 !                                                         EA(K)
+KH         KCH3CCH                -> KC3H5                                                   2.01e+03   From Jean-Christophe Loison         
+KH         KCH3CHCH2              -> KCH2CH2CH3                                              1.60e+03   From Jean-Christophe Loison         
+KH         KC3H8                  -> KCH2CH2CH3 KH2                                          4.00e+03   From Jean-Christophe Loison         
+JH         JCH3CCH                -> JC3H5                                                   2.01e+03   From Jean-Christophe Loison         
+JH         JCH3CHCH2              -> JCH2CH2CH3                                              1.60e+03   From Jean-Christophe Loison         
+JH         JC3H8                  -> JCH2CH2CH3 JH2                                          4.00e+03   From Jean-Christophe Loison
 KH         KC6H5CN                -> KC6H5      KHCN                                         4.46e+03   
 JH         JC6H5CN                -> JC6H5      JHCN                                         4.46e+03   
 JCH4       JCCH                   -> JC2H2      JCH3                                         2.50e+02   Mitchell 84
