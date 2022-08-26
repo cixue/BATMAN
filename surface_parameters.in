@@ -493,7 +493,7 @@ JCNCHCCH     64 18350.    0. 0.0e+00 Linear addition of atoms * -999.99
 KCNCHCCH     64 18350.    0. 0.0e+00 Linear addition of atoms * -999.99
 JC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
 KC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
-JCH3CHCH2    42  5187.    0. 0.0e+00 C3H5+H                   *   +4.80
+JCH3CHCH2    42  2580.    0. 0.0e+00 C3H5+H                   *   +4.80
 KCH3CHCH2    42  5700.    0. 0.0e+00 C3H5+H                   *   +4.80
 JCH2CH2CH3   43  3100.    0. 0.0e+00 CH3CHCH2+H               *  +27.00
 KCH2CH2CH3   43  3100.    0. 0.0e+00 CH3CHCH2+H               *  +27.00
