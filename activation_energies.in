@@ -5,8 +5,8 @@ JCH4       JCCH                   -> JC2H2      JCH3                            
 JH         JC2H6                  -> JC2H5      JH2                                          4.89E+03   TranFaradSco 65,2116
 JH         JC2H2                  -> JC2H3                                                   1.21e+03   C=_C triple bond HASE
 JH         JC2H4                  -> JC2H5                                                   7.50e+02   C=C  double bond HASE
-JH         Jc-C3H2                -> JCH2CCH                                                 1.21e+03   C=_C triple bond
-JH         Jl-C3H2                -> JCH2CCH                                                 1.21e+03   C=_C triple bond
+JH         Jc-C3H2                -> JCH2CCH                                                 0.00e+00   Loison et al. 2017
+JH         Jl-C3H2                -> JCH2CCH                                                 0.00e+00   Loison et al. 2017
 JH         JC4H2                  -> JC4H3                                                   1.21E+03   C=_C bond HASE
 JH         JC5H2                  -> JC5H3                                                   1.21E+03   C=_C bond HASE
 JH         JC6H2                  -> JC6H3                                                   1.21E+03   C=_C bond HASE
