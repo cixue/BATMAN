@@ -1,12 +1,12 @@
 !                                                         EA(K)
 KH2        Kl-C3H                 -> KCH2CCH                                                 3.60e+03   From Jean-Christophe Loison
 KH2        Kc-C3H                 -> Kc-C3H2    KH                                           6.70e+03   From Jean-Christophe Loison
-KH         KCH3CCH                -> KC3H5                                                   2.01e+03   From Jean-Christophe Loison
+KH         KCH3CCH                -> KC3H5                                                   2.00e+03   From Jean-Christophe Loison
 KH         KCH3CHCH2              -> KCH2CH2CH3                                              1.60e+03   From Jean-Christophe Loison
 KH         KC3H8                  -> KCH2CH2CH3 KH2                                          4.00e+03   From Jean-Christophe Loison
 JH2        Jl-C3H                 -> JCH2CCH                                                 3.60e+03   From Jean-Christophe Loison
 JH2        Jc-C3H                 -> Jc-C3H2    JH                                           6.70e+03   From Jean-Christophe Loison
-JH         JCH3CCH                -> JC3H5                                                   2.01e+03   From Jean-Christophe Loison
+JH         JCH3CCH                -> JC3H5                                                   2.00e+03   From Jean-Christophe Loison
 JH         JCH3CHCH2              -> JCH2CH2CH3                                              1.60e+03   From Jean-Christophe Loison
 JH         JC3H8                  -> JCH2CH2CH3 JH2                                          4.00e+03   From Jean-Christophe Loison
 KH         KC6H5CN                -> KC6H5      KHCN                                         4.46e+03
@@ -15,8 +15,6 @@ JCH4       JCCH                   -> JC2H2      JCH3                            
 JH         JC2H6                  -> JC2H5      JH2                                          4.89E+03   TranFaradSco 65,2116
 JH         JC2H2                  -> JC2H3                                                   1.21e+03   C=_C triple bond HASE
 JH         JC2H4                  -> JC2H5                                                   7.50e+02   C=C  double bond HASE
-!JH         Jc-C3H2                -> JCH2CCH                                                 1.21e+03   C=_C triple bond
-!JH         Jl-C3H2                -> JCH2CCH                                                 1.21e+03   C=_C triple bond
 JH         JC4H2                  -> JC4H3                                                   1.21E+03   C=_C bond HASE
 JH         JC5H2                  -> JC5H3                                                   1.21E+03   C=_C bond HASE
 JH         JC6H2                  -> JC6H3                                                   1.21E+03   C=_C bond HASE
@@ -41,10 +39,6 @@ JH         JO3                    -> JO2        JOH                             
 JH2        JC                     -> JCH2                                                    2.50e+03  92Summer. Exoth.
 JH2        JC2                    -> JCCH       JH                                           4.20e+03  Our test
 JH2        JCCH                   -> JC2H2      JH                                           4.20e+03
-!JH2        JC3                    -> Jc-C3H     JH                                           4.20e+03
-!JH2        JC3                    -> Jl-C3H     JH                                           4.20e+03
-!JH2        Jc-C3H                 -> Jc-C3H2    JH                                           4.20e+03
-!JH2        Jl-C3H                 -> Jl-C3H2    JH                                           4.20e+03
 JH2        JC4                    -> JC4H       JH                                           4.20e+03
 JH2        JC4H                   -> JC4H2      JH                                           4.20e+03
 JH2        JC5                    -> JC5H       JH                                           4.20e+03
@@ -75,8 +69,6 @@ KCH4       KCCH                   -> KC2H2      KCH3                            
 KH         KC2H6                  -> KC2H5      KH2                                          4.89E+03   TranFaradSco 65,2116
 KH         KC2H2                  -> KC2H3                                                   1.21e+03   C=_C triple bond HASE
 KH         KC2H4                  -> KC2H5                                                   7.50e+02   C=C  double bond HASE
-!KH         Kc-C3H2                -> KCH2CCH                                                 1.21e+03   C=_C triple bond
-!KH         Kl-C3H2                -> KCH2CCH                                                 1.21e+03   C=_C triple bond
 KH         KC4H2                  -> KC4H3                                                   1.21E+03   C=_C bond HASE
 KH         KC5H2                  -> KC5H3                                                   1.21E+03   C=_C bond HASE
 KH         KC6H2                  -> KC6H3                                                   1.21E+03   C=_C bond HASE
@@ -101,10 +93,6 @@ KH         KO3                    -> KO2        KOH                             
 KH2        KC                     -> KCH2                                                    2.50e+03  92Summer. Exoth.
 KH2        KC2                    -> KCCH       KH                                           4.20e+03  Our test
 KH2        KCCH                   -> KC2H2      KH                                           4.20e+03
-!KH2        KC3                    -> Kc-C3H     KH                                           4.20e+03
-!KH2        KC3                    -> Kl-C3H     KH                                           4.20e+03
-!KH2        Kc-C3H                 -> Kc-C3H2    KH                                           4.20e+03
-!KH2        Kl-C3H                 -> Kl-C3H2    KH                                           4.20e+03
 KH2        KC4                    -> KC4H       KH                                           4.20e+03
 KH2        KC4H                   -> KC4H2      KH                                           4.20e+03
 KH2        KC5                    -> KC5H       KH                                           4.20e+03
@@ -147,7 +135,6 @@ KOH        KCO                    -> KHOCO                                      
 !JH         JO2H       JO2        JH2                    3.50e+02   M84Try this as well N
 !JH         JN2        JN2H                              1.20e+03   EH To be eliminated N
 !JH2        JC2        JCCH       JH                     2.10e+03  Our estimate
-!JH2        JC3        JC3H       JH                     2.10e+03
 !JH2        JC4        JC4H       JH                     2.10e+03
 !JH2        JC5        JC5H       JH                     2.10e+03
 !JH2        JC6        JC6H       JH                     2.10e+03
