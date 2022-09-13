@@ -900,7 +900,6 @@ CH         C2H2                   H          c-C3H2                             
 CH         CH3CCH                 H          CH2CHC2H                                      4.200e-10 -2.300e-01  1.600e+01 2.00e+00 0.00e+00 logn  4     10    300  3   901 1  1
 CH         C4H2                   H          C5H2                                          4.200e-10 -2.300e-01  1.600e+01 2.00e+00 0.00e+00 logn  4     10    300  3   902 1  1
 CH         C6H2                   H          C7H2                                          4.200e-10 -2.300e-01  1.600e+01 2.00e+00 0.00e+00 logn  4     10    300  3   903 1  1
-CH         C2H4                   H          CH3CCH                                        1.000e-10 -5.460e-01  2.960e+01 1.20e+00 0.00e+00 logn  4     10    300  3   904 1  1
 CH         CH3CHCH2               CH3        CH3CCH                                        9.000e-11  0.000e+00  0.000e+00 1.40e+00 7.00e+00 logn  4     10    300  3   905 1  3
 CH         CH3CHCH2               H          CH2CHCHCH2                                    3.300e-10  0.000e+00  0.000e+00 1.40e+00 7.00e+00 logn  4     10    300  3   906 1  3
 CH         C3                     H          C4                                            3.960e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3   907 1  2
@@ -8109,7 +8108,9 @@ O          CH2CCH                 C3O        H          H2                      
 ! Added the species CH2CCH2, along with its formation
 ! and destruction pathways from Loison et al. (2017)
 !*********************************************
-CH         C2H4                   H          CH2CCH2                                       2.400e-10 -5.460e-01  2.960e+01 2.00e+00 0.00e+00 logn  4     10    300  3 12148 1  1
+! 9/13/22: Split CH + C2H4 -> H + CH2CCH2 into T-independent and T-dependent (23 K value) according to Canosa et al. (1997)
+CH         C2H4                   H          CH2CCH2                                       2.740e-10  0.000e+00  0.000e+00 1.20e+00 0.00e+00 logn  4     10     22  3 12179 1  1
+CH         C2H4                   H          CH2CCH2                                       2.400e-10 -5.460e-01  2.960e+01 1.20e+00 0.00e+00 logn  4     23    300  3 12148 1  1
 C3H5+      e-                     H          CH2CCH2                                       7.000e-08 -7.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 12149 1  1
 C          CH2CCH2                H          C4H3                                          3.500e-10 -1.000e-02  0.000e+00 1.40e+00 0.00e+00 logn  4     10    300  3 12150 1  1
 H+         CH2CCH2                H2         c-C3H3+                                       7.500e-10  0.000e+00  0.000e+00 3.00e+00 0.00e+00 logn  4     10    300  3 12151 1  1
@@ -8137,3 +8138,7 @@ C          CH3CCH                 H2         C4H2                               
 ! 9/13/22: Split C2 + CH4 reaction into T-dependent and T-independent (24 K value) according to Canosa et al. (2007)
 C2         CH4                    H          CH2CCH                                        1.300e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10     23  3 12173 1  1
 C2         CH4                    H          CH2CCH                                        9.830e-11 -4.200e-01  1.300e+01 2.00e+00 0.00e+00 logn  4     24    300  3 12174 1  1
+! 9/13/22: Split CH + C2H4 -> H + CH3CCH into T-independent and T-dependent (23 K value) according to Canosa et al. (1997)
+CH         C2H4                   H          CH3CCH                                        1.000e-10 -5.460e-01  2.960e+01 1.20e+00 0.00e+00 logn  4     10     22  3   904 1  1
+CH         C2H4                   H          CH3CCH                                        1.120e-10  0.000e+00  0.00e+00  1.20e+00 0.00e+00 logn  4     23    300  3 12180 1  1
+
