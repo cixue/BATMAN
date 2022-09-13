@@ -8141,4 +8141,6 @@ C2         CH4                    H          CH2CCH                             
 ! 9/13/22: Split CH + C2H4 -> H + CH3CCH into T-independent and T-dependent (23 K value) according to Canosa et al. (1997)
 CH         C2H4                   H          CH3CCH                                        1.000e-10 -5.460e-01  2.960e+01 1.20e+00 0.00e+00 logn  4     10     22  3   904 1  1
 CH         C2H4                   H          CH3CCH                                        1.120e-10  0.000e+00  0.00e+00  1.20e+00 0.00e+00 logn  4     23    300  3 12180 1  1
-
+! 9/13/22: Addition of two missed allene reactions from Loison et al. (2017)
+CCH        CH2CCH2                CH3C4H     H                                             3.000e-10  0.000e+00  0.000e+00 1.60e+00 0.00e+00 logn  4     10    300  3 12181 1  1
+CH         CH2CCH2                CH2CHC2H   H                                             3.200e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12182 1  1
