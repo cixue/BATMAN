@@ -8139,4 +8139,6 @@ N2H+       CH2CCH2                N2         C3H5+                              
 C          CH3CCH                 H          C4H3                                          2.670e-10 -1.100e-01  0.000e+00 1.40e+00 0.00e+00 logn  4     10    300  3 12170 1  1
 !C          CH3CCH                 H          C4H3                                          2.300e-10 -1.100e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12171 1  1
 !C          CH3CCH                 H2         C4H2                                          4.050e-11 -1.100e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12172 1  1
-C2         CH4                    H          CH2CCH                                        1.300e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12173 1  1
+! 9/13/22: Split C2 + CH4 reaction into T-dependent and T-independent (24 K value) according to Canosa et al. (2007)
+C2         CH4                    H          CH2CCH                                        1.300e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10     23  3 12173 1  1
+C2         CH4                    H          CH2CCH                                        9.830e-11 -4.200e-01  1.300e+01 2.00e+00 0.00e+00 logn  4     24    300  3 12174 1  1
