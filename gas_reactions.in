@@ -7825,18 +7825,12 @@ C2H6       CRP                    C2H6+      e-                                 
 ! Propargyl Cyanide (CNCH2CCH)
 ! Note: The formation route was found to occur every collision by Carty et al. (2001)
 CN         CH3CCH                 CNCH2CCH   H                                             3.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    800  3  7718 1  1
-H+         CNCH2CCH               HCN+       CH2CCH                                        1.000e+00  7.922e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7719 1  1
-H+         CNCH2CCH               HCN+       CH2CCH                                        1.000e+00  7.922e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  5  7720 1  1
-H3+        CNCH2CCH               H2         HCN+       CH2CCH                             1.000e+00  4.643e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7721 1  1
-H3+        CNCH2CCH               H2         HCN+       CH2CCH                             1.000e+00  4.643e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  5  7722 1  1
-He+        CNCH2CCH               He         CN+        CH2CCH                             1.000e+00  4.064e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7723 1  1
-He+        CNCH2CCH               He         CN+        CH2CCH                             1.000e+00  4.064e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  5  7724 1  1
-C+         CNCH2CCH               C2N+       CH2CCH                                        1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7725 1  1
-C+         CNCH2CCH               C2N+       CH2CCH                                        1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7726 1  1
-HCO+       CNCH2CCH               HCO        CN+        CH2CCH                             1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7727 1  1
-HCO+       CNCH2CCH               HCO        CN+        CH2CCH                             1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7728 1  1
-H3O+       CNCH2CCH               H2O        HCN+       CH2CCH                             1.000e+00  2.057e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7729 1  1
-H3O+       CNCH2CCH               H2O        HCN+       CH2CCH                             1.000e+00  2.057e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7730 1  1
+CNCH2CCH   H+                     HCN+       CH2CCH                                        1.000e+00  6.299e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7719 1  1
+CNCH2CCH   H3+                    H2         HCN+       CH2CCH                             1.000e+00  3.691e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7720 1  1
+CNCH2CCH   He+                    He         CN+        CH2CCH                             1.000e+00  3.220e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7721 1  1
+CNCH2CCH   C+                     C2N+       CH2CCH                                        1.000e+00  1.964e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7722 1  1
+CNCH2CCH   HCO+                   HCO        CN+        CH2CCH                             1.000e+00  1.396e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7723 1  1
+CNCH2CCH   H3O+                   H2O        HCN+       CH2CCH                             1.000e+00  1.630e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7724 1  1
 ! Cyclopendadiene (c-C5H6)
 ! Note: Formation route found to be exothermic by McCarthy et al. (2020)
 CH         c-C5H6                 C6H6       H                                             2.700e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    800  3  7731 1  1 ! Rate from Caster et al. J. Phys. Chem. A, 2019
@@ -8075,19 +8069,6 @@ CH2CCH     C2H2+                  H2         C5H3+                              
 CH2CCH     C2H2+                  H          C5H4+                                         2.500e-01  1.393e-09  2.211e-01 2.00e+00 0.00e+00 logn  4     10    300  5 12123 1  1
 CH2CCH     C2H2+                  C2H2       c-C3H3+                                       2.500e-01  1.393e-09  2.211e-01 2.00e+00 0.00e+00 logn  4     10    300  5 12124 1  1
 CH2CCH     C2H2+                  C2H2       l-C3H3+                                       2.500e-01  1.393e-09  2.211e-01 2.00e+00 0.00e+00 logn  4     10    300  5 12125 1  1
-!CNCH2CCH   H+                     HCN+       CH2CCH                                        1.000e+00  6.299e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12126 1  1
-!CNCH2CCH   H3+                    H2         HCN+       CH2CCH                             1.000e+00  3.691e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12127 1  1
-!CNCH2CCH   He+                    He         CN+        CH2CCH                             1.000e+00  3.220e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12128 1  1
-!CNCH2CCH   C+                     C2N+       CH2CCH                                        1.000e+00  1.964e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12129 1  1
-!CNCH2CCH   HCO+                   HCO        CN+        CH2CCH                             1.000e+00  1.396e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12130 1  1
-!CNCH2CCH   H3O+                   H2O        HCN+       CH2CCH                             1.000e+00  1.630e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12131 1  1
-!C4H3CN     H+                     HCN+       CH2CCH     C                                  1.000e+00  6.699e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12132 1  1
-!C4H3CN     He+                    He         CN+        CH2CCH     C                       1.000e+00  3.413e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12133 1  1
-!C4H3CN     H3+                    CH2        HCN+       CH2CCH                             1.000e+00  3.917e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12134 1  1
-!C4H3CN     C+                     C2N+       CH2CCH     C                                  1.000e+00  2.066e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12135 1  1
-!C4H3CN     HCO+                   HCO        CN+        CH2CCH     C                       1.000e+00  1.450e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12136 1  1
-!C4H3CN     H3O+                   H2O        HCN+       CH2CCH     C                       1.000e+00  1.705e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12137 1  1
-
 !********** Updated Propargyl-related Neutral-Neutral Reactions ********                                                                                                        
 ! Added by Alex Byrne 8/11/22
 ! Loison et al. (2017)                                                                                                                                                   
