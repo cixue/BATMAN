@@ -7879,18 +7879,12 @@ H3O+       c-CNC5H5               H2O        C2H3       CH2+       HC3N         
 ! NB: Ion-neutral rate coefficient should be recalculated and product channels reestimated - CNS
 C4H3       HCN                    C4H3CN     H                                             4.500e-14  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    800  3  7771 1  1
 C4H3CN     C6H5                   C10CNH7    H                                             3.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    800  3  7772 1  1
-H+         C4H3CN                 HCN+       CH2CCH     C                                  1.000e+00  7.922e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7773 1  1
-H+         C4H3CN                 HCN+       CH2CCH     C                                  1.000e+00  7.922e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  5  7774 1  1
-H3+        C4H3CN                 CH2        HCN+       CH2CCH                             1.000e+00  4.643e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7775 1  1
-H3+        C4H3CN                 CH2        HCN+       CH2CCH                             1.000e+00  4.643e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  5  7776 1  1
-He+        C4H3CN                 He         CN+        CH2CCH     C                       1.000e+00  4.064e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7777 1  1
-He+        C4H3CN                 He         CN+        CH2CCH     C                       1.000e+00  4.064e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  5  7778 1  1
-C+         C4H3CN                 C2N+       CH2CCH     C                                  1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7779 1  1
-C+         C4H3CN                 C2N+       CH2CCH     C                                  1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7780 1  1
-HCO+       C4H3CN                 HCO        CN+        CH2CCH     C                       1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7781 1  1
-HCO+       C4H3CN                 HCO        CN+        CH2CCH     C                       1.000e+00  2.478e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7782 1  1
-H3O+       C4H3CN                 H2O        HCN+       CH2CCH     C                       1.000e+00  2.057e-09  5.299e+00 2.00e+00 0.00e+00 logn  4  -9999   2808  4  7783 1  1
-H3O+       C4H3CN                 H2O        HCN+       CH2CCH     C                       1.000e+00  2.057e-09  5.299e+00 2.00e+00 0.00e+00 logn  4   2809   9999  4  7784 1  1
+C4H3CN     H+                     HCN+       CH2CCH     C                                  1.649e-08 -5.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3  7773 1  1
+C4H3CN     He+                    He         CN+        CH2CCH     C                       8.404e-09 -5.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3  7774 1  1
+C4H3CN     H3+                    CH2        HCN+       CH2CCH                             9.644e-09 -5.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3  7775 1  1
+C4H3CN     C+                     C2N+       CH2CCH     C                                  5.086e-09 -5.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3  7776 1  1
+C4H3CN     HCO+                   HCO        CN+        CH2CCH     C                       3.570e-09 -5.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3  7777 1  1
+C4H3CN     H3O+                   H2O        HCN+       CH2CCH     C                       4.198e-09 -5.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3  7778 1  1
 !******* Additional Benzene reactions ********
 ! Reactions in KIDA that did not involve additional species
 ! First taken from Mebel et al. 1997. Used in Hébrard et al. 2009
