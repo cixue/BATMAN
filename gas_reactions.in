@@ -7751,7 +7751,7 @@ C6H6       Photon                 H2         C6H4                               
 ! Alternative benzene formation route from Jones et al. PNAS, 2011
 !
 !*******************************************************************************
-CCH        CH2CHCHCH2             H          C6H6                                          1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4  -9999   9999  3  7679 1  1
+CCH        CH2CHCHCH2             H          C6H6                                          1.200e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3  7679 1  1
 !**** C10H10 REACTIONS *********************************************************
 ! Note (28/06/2019): Christopher N. Shingledecker
 !
