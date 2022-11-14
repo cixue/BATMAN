@@ -499,3 +499,7 @@ JCH2CH2CH3   43  3100.    0. 0.0e+00 CH3CHCH2+H               *  +27.00
 KCH2CH2CH3   43  3100.    0. 0.0e+00 CH3CHCH2+H               *  +27.00
 JC3H8        44  1600.    0. 0.0e+00 Wakelam et al. 2017      *  -25.00
 KC3H8        44  1600.    0. 0.0e+00 Wakelam et al. 2017      *  -25.00
+JC4H5CN      79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
+KC4H5CN      79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
+Jc-C5H5N     79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
+Kc-C5H5N     79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
