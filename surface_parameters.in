@@ -72,14 +72,14 @@ JC10        120  8000.    0. 0.0e+00 C9+C                     * +420.89
 JCCH         25  2137.    0. 0.0e+00 C2H2-H                   * +135.00
 JC2H2        26  2587.    0. 0.0e+00 Collings et al. 2004     *  +54.50
 JC2H3        27  2800.    0. 0.0e+00 Wakelam et al. 2017      *  +62.70
-JC2H4        28  2500.    0. 0.0e+00 Wakelam et al. 2017      *  +14.60
+JC2H4        28  2400.    0. 0.0e+00 Behmard et al. 2019      *  +14.60
 JC2H5        29  3100.    0. 0.0e+00 Wakelam et al. 2017      *  +28.30
 Jl-C3H       37  4000.    0. 0.0e+00 Wakelam et al. 2017      * +176.65
 Jc-C3H       37  5200.    0. 0.0e+00 Wakelam et al. 2017      * +176.65
 Jc-C3H2      38  5900.    0. 0.0e+00 Wakelam et al. 2017      * +137.83
 Jl-C3H2      38  3387.    0. 0.0e+00 C3H+H                    * +137.83
 JCH2CCH      39  3300.    0. 0.0e+00 Wakelam et al. 2017      *  +82.00
-JCH3CCH      40  2500.    0. 0.0e+00 Kimber et al. 2014       *  +47.70
+JCH3CCH      40  4400.    0. 0.0e+00 Behmard et al. 2019      *  +47.70
 JC4H         49  3737.    0. 0.0e+00 C3H+C                    * +191.11
 JC4H2        50  4187.    0. 0.0e+00 C4H+H                    * +105.00
 JC4H3        51  4637.    0. 0.0e+00 C4H2+H                   * +110.66
@@ -195,7 +195,7 @@ JSiC6H      101  8037.    0. 0.0e+00                          * -999.99
 JHC6N        87  7780.    0. 0.0e+00                          * -999.99
 JNC6N       100  5800.    0. 0.0e+00                          * -999.99
 JSiC3H5      69  7437.    0. 0.0e+00                          * -999.99
-JCH2CHCHCH2  54  5987.    0. 0.0e+00 C4H5+H                   *  +38.80
+JCH2CHCHCH2  54  5600.    0. 0.0e+00 C2H3+C2H3                *  +38.80
 JSiC8H      125  9637.    0. 0.0e+00                          * -999.99
 JHC8N       111  9380.    0. 0.0e+00                          * -999.99
 JNC8N       124  7400.    0. 0.0e+00                          * -999.99
@@ -206,7 +206,7 @@ JF           19   800.    0. 0.0e+00  same as O               * -999.99
 JHF          20  2850.    0. 0.0e+00  same as OH              * -999.99
 JCH2OH       31  5084.    0. 0.0e+00 CH3OH-H                  *   -2.70
 JHC2O        41  2400.    0. 0.0e+00 C2O+H                    *  +42.40
-JC2H6        30  1600.    0. 0.0e+00 Wakelam et al. 2017      *  -16.30
+JC2H6        30  2500.    0. 0.0e+00 Behmard et al. 2019      *  -16.30
 JC5H3        63  5437.    0. 0.0e+00 C5H2+H                   * +130.52
 JC5H4        64  5887.    0. 0.0e+00 C5H3+H                   * +115.00
 JC6H3        75  6237.    0. 0.0e+00 C6H2+H                   * +161.38
@@ -419,7 +419,7 @@ KSiC6H      101  8037.    0. 0.0e+00                          * -999.99
 KHC6N        87  7780.    0. 0.0e+00                          * -999.99
 KNC6N       100  5800.    0. 0.0e+00                          * -999.99
 KSiC3H5      69  7437.    0. 0.0e+00                          * -999.99
-KCH2CHCHCH2  54  5987.    0. 0.0e+00 C4H5+H                   *  +38.80
+KCH2CHCHCH2  54  5600.    0. 0.0e+00 C2H3+C2H3                *  +38.80
 KSiC8H      125  9637.    0. 0.0e+00                          * -999.99
 KHC8N       111  9380.    0. 0.0e+00                          * -999.99
 KNC8N       124  7400.    0. 0.0e+00                          * -999.99
@@ -493,12 +493,12 @@ JCNCHCCH     64 18350.    0. 0.0e+00 Linear addition of atoms * -999.99
 KCNCHCCH     64 18350.    0. 0.0e+00 Linear addition of atoms * -999.99
 JC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
 KC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
-JCH3CHCH2    42  2580.    0. 0.0e+00 Ward and Price 2011      *   +4.80
-KCH3CHCH2    42  2580.    0. 0.0e+00 Ward and Price 2011      *   +4.80
+JCH3CHCH2    42  3800.    0. 0.0e+00 Behmard et al. 2019      *   +4.80
+KCH3CHCH2    42  3800.    0. 0.0e+00 Behmard et al. 2019      *   +4.80
 JCH2CH2CH3   43  3100.    0. 0.0e+00 CH3CHCH2+H               *  +27.00
 KCH2CH2CH3   43  3100.    0. 0.0e+00 CH3CHCH2+H               *  +27.00
-JC3H8        44  1600.    0. 0.0e+00 Wakelam et al. 2017      *  -25.00
-KC3H8        44  1600.    0. 0.0e+00 Wakelam et al. 2017      *  -25.00
+JC3H8        44  3500.    0. 0.0e+00 Behmard et al. 2019      *  -25.00
+KC3H8        44  3500.    0. 0.0e+00 Behmard et al. 2019      *  -25.00
 JC4H5CN      79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
 KC4H5CN      79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
 Jc-C5H5N     79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
