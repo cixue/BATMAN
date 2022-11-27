@@ -7923,7 +7923,7 @@ CNCHCCH    H3O+                   H2O        HCN+       l-C3H2                  
 ! Morales et al. 2011 measured the rate of CN+CH2CHCHCH2 as, in an Arrhenius expression, k(T) = (4.8+/-0.1)x10^-10 exp[(−77 ± 10) J mol−1 / (8.31 J mol-1 K-1 x T)] cm^3 molecule^−1 s^−1 with T in Kelvin.
 ! Branching ratio of 99:1 for cyanobutadiene:pyridine is derived from Parker et al. 2015.
 ! Rate coefficients of ion-molecule reactions are calculated based on dipole and polarizability:
-! C4H5CN: 4.814 D and 11.178 A^3 (calculated, from Bob McMahon)
+! C4H5CN: 4.814 D and 11.178 A^3 (calculated, Zdanovskaia et al. 2021)
 ! c-C5H5N: 2.190 D and 9.493 A^3 (measured, Nelson Jr. et al. 1967, Gray et al. 1984)
 ! *********************************
 CN         CH2CHCHCH2             H          C4H5CN                                        4.752e-10  0.000e+00  9.266e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12001 1  1

@@ -4045,12 +4045,6 @@ JCH3CHCH2                         JH2        JCH3CCH                            
 JCH3CHCH2                         JCH2       JC2H4                                         1.130e-09  0.000e+00  1.640e+00 0.00e+00 0.00e+00   NA 19  -9999   9999  0 11833 1  1
 KCH3CHCH2                         KH2        KCH3CCH                                       3.000e+03  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 17  -9999   9999  0 11834 1  1
 KCH3CHCH2                         KCH2       KC2H4                                         1.130e-09  0.000e+00  1.640e+00 0.00e+00 0.00e+00   NA 19  -9999   9999  0 11835 1  1
-JCH        JCH3CHCH2              JCH3       JCH3CCH                                       0.100E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 11836 1  1
-JCH        JCH3CHCH2              CH3        CH3CCH                                        0.100E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 11837 1  1
-KCH        KCH3CHCH2              KCH3       KCH3CCH                                       0.100E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 11838 1  1
-JCH        JCH3CHCH2              JH         JCH2CHCHCH2                                   0.900E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 11839 1  1
-JCH        JCH3CHCH2              H          CH2CHCHCH2                                    0.900E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 11840 1  1
-KCH        KCH3CHCH2              KH         KCH2CHCHCH2                                   0.900E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 11841 1  1
 !    Reactants                    Products                                                  A          B          C      xxxxxxxxxxxxxxxxxxxxx ITYPE Tmin   Tmax formula ID xxxxx
 ! Propargyl Cyanide (CNCH2CCH)
 CNCH2CCH                          JCNCH2CCH                                                1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 99  -9999   9999  0 11842 1  1
