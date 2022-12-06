@@ -8130,3 +8130,5 @@ CH2CCHCN   He+                    He         CN+        CH2CCH                  
 CH2CCHCN   C+                     C2N+       CH2CCH                                        1.000e+00  2.091e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12195 1  1
 CH2CCHCN   HCO+                   HCO        CN+        CH2CCH                             1.000e+00  1.486e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12196 1  1
 CH2CCHCN   H3O+                   H2O        HCN+       CH2CCH                             1.000e+00  1.736e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12197 1  1
+! Adding radiative association of CH2CCH and CN to form CNCH2CCH assuming rate constant of 1e-10 according to Tennis et al. (2021)
+CN         CH2CCH                 CNCH2CCH   Photon                                        1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12198 1  1
