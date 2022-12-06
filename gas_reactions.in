@@ -8120,3 +8120,6 @@ CH         C2H4                   H          CH3CCH                             
 ! 9/13/22: Addition of two missed allene reactions from Loison et al. (2017)
 CCH        CH2CCH2                CH3C4H     H                                             3.000e-10  0.000e+00  0.000e+00 1.60e+00 0.00e+00 logn  4     10    300  3 12182 1  1
 CH         CH2CCH2                CH2CHC2H   H                                             3.200e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12183 1  1
+! Formation of cyanoallene with rate from Carty et al. (2001) and branching ratios from Balucani et al. (2002)
+CN         CH2CCH2                CH2CCHCN   H                                             3.690e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12190 1  1
+CN         CH2CCH2                CNCH2CCH   H                                             4.100e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12191 1  1
