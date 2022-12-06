@@ -7831,7 +7831,7 @@ C2H6       CRP                    H2         C2H4                               
 C2H6       CRP                    C2H6+      e-                                            3.890e+02  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1  7717 1  1
 ! Propargyl Cyanide (CNCH2CCH)
 ! Note: The formation route was found to occur every collision by Carty et al. (2001)
-CN         CH3CCH                 CNCH2CCH   H                                             3.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    800  3  7718 1  1
+!CN         CH3CCH                 CNCH2CCH   H                                             3.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    800  3  7718 1  1
 CNCH2CCH   H+                     HCN+       CH2CCH                                        1.000e+00  6.299e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7719 1  1
 CNCH2CCH   H3+                    H2         HCN+       CH2CCH                             1.000e+00  3.691e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7720 1  1
 CNCH2CCH   He+                    He         CN+        CH2CCH                             1.000e+00  3.220e-09  4.683e+00 2.00e+00 0.00e+00 logn  4     10    300  4  7721 1  1
@@ -8132,3 +8132,7 @@ CH2CCHCN   HCO+                   HCO        CN+        CH2CCH                  
 CH2CCHCN   H3O+                   H2O        HCN+       CH2CCH                             1.000e+00  1.736e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12197 1  1
 ! Adding radiative association of CH2CCH and CN to form CNCH2CCH assuming rate constant of 1e-10 according to Tennis et al. (2021)
 CN         CH2CCH                 CNCH2CCH   Photon                                        1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12198 1  1
+! Adjusting CN + CH3CCH reaction: rate from Carty et al. (2001) and branching ratios from Abeysekera et al. (2015)
+CN         CH3CCH                 HC3N       CH3                                           2.706e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12199 1  1
+CN         CH3CCH                 CH3C3N     H                                             9.020e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12200 1  1
+CN         CH3CCH                 HCN        CH2CCH                                        4.920e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12201 1  1
