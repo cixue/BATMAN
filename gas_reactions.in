@@ -8123,3 +8123,10 @@ CH         CH2CCH2                CH2CHC2H   H                                  
 ! Formation of cyanoallene with rate from Carty et al. (2001) and branching ratios from Balucani et al. (2002)
 CN         CH2CCH2                CH2CCHCN   H                                             3.690e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12190 1  1
 CN         CH2CCH2                CNCH2CCH   H                                             4.100e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12191 1  1
+! Ion-neutral destruction of CH2CCHCN. Assumed to be same products as CNCH2CCH. Dipole moment of 4.28 D from Bouchy et al. (1973) and polarizability from Woon and Herbst (2009)
+CH2CCHCN   H+                     HCN+       CH2CCH                                        1.000e+00  6.707e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12192 1  1
+CH2CCHCN   H3+                    H2         HCN+       CH2CCH                             1.000e+00  3.931e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12193 1  1
+CH2CCHCN   He+                    He         CN+        CH2CCH                             1.000e+00  3.429e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12194 1  1
+CH2CCHCN   C+                     C2N+       CH2CCH                                        1.000e+00  2.091e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12195 1  1
+CH2CCHCN   HCO+                   HCO        CN+        CH2CCH                             1.000e+00  1.486e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12196 1  1
+CH2CCHCN   H3O+                   H2O        HCN+       CH2CCH                             1.000e+00  1.736e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12197 1  1
