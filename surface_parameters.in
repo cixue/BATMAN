@@ -80,6 +80,8 @@ Jc-C3H2      38  5900.    0. 0.0e+00 Wakelam et al. 2017      * +137.83
 Jl-C3H2      38  3387.    0. 0.0e+00 C3H+H                    * +137.83
 JCH2CCH      39  3300.    0. 0.0e+00 Wakelam et al. 2017      *  +82.00
 JCH3CCH      40  4400.    0. 0.0e+00 Behmard et al. 2019      *  +47.70
+JCH2CCH2     40  4400.    0. 0.0e+00 Same as CH3CCH           *  +47.21
+JCH2CCHCN    65  9520.    0. 0.0e+00 Villadsen et al. 2022    * -999.99
 JC4H         49  3737.    0. 0.0e+00 C3H+C                    * +191.11
 JC4H2        50  4187.    0. 0.0e+00 C4H+H                    * +105.00
 JC4H3        51  4637.    0. 0.0e+00 C4H2+H                   * +110.66
@@ -133,7 +135,7 @@ JHC9N       123  9380.    0. 0.0e+00 HC7N+C+C                 *  +84.00
 JH2CCN       40  4230.    0. 0.0e+00 CH3CN-H                  *  +59.00
 JCH3CN       41  4680.    0. 0.0e+00 Collings                 *  +19.00
 JCH2CHCN     53  5480.    0. 0.0e+00 HC3N+H+H                 *  +44.00
-JCH3C3N      65  6480.    0. 0.0e+00 C3H3N+C                  *  +81.00
+JCH3C3N      65  9520.    0. 0.0e+00 Villadsen et al. 2022    *  +81.00
 JCH3C5N      89  7880.    0. 0.0e+00 H3C5N+C                  * -999.99
 JCH3C7N     113  9480.    0. 0.0e+00 H3C7N+C                  * -999.99
 JCH3OH       32  5534.    0. 0.0e+00 Collings                 *  -45.40
@@ -304,6 +306,8 @@ Kc-C3H2      38  5700.    0. 0.0e+00 C3H+H                    * +137.83
 Kl-C3H2      38  5700.    0. 0.0e+00 C3H+H                    * +137.83
 KCH2CCH      39  5700.    0. 0.0e+00 C3H2+H                   *  +82.00
 KCH3CCH      40  5700.    0. 0.0e+00 C3H3+H                   *  +47.70
+KCH2CCH2     40  5700.    0. 0.0e+00 Same as CH3CCH           *  +47.21
+KCH2CCHCN    65  9520.    0. 0.0e+00 Villadsen et al. 2022    * -999.99
 KC4H         49  5700.    0. 0.0e+00 C3H+C                    * +191.11
 KC4H2        50  5700.    0. 0.0e+00 C4H+H                    * +105.00
 KC4H3        51  5700.    0. 0.0e+00 C4H2+H                   * +110.66
@@ -357,7 +361,7 @@ KHC9N       123  9380.    0. 0.0e+00 HC7N+C+C                 *  +84.00
 KH2CCN       40  5700.    0. 0.0e+00 CH3CN-H                  *  +59.00
 KCH3CN       41  5700.    0. 0.0e+00 Collings                 *  +19.00
 KCH2CHCN     53  5700.    0. 0.0e+00 HC3N+H+H                 *  +44.00
-KCH3C3N      65  6480.    0. 0.0e+00 C3H3N+C                  *  +81.00
+KCH3C3N      65  9520.    0. 0.0e+00 Villadsen et al. 2022    *  +81.00
 KCH3C5N      89  7880.    0. 0.0e+00 H3C5N+C                  * -999.99
 KCH3C7N     113  9480.    0. 0.0e+00 H3C7N+C                  * -999.99
 KCH3OH       32  5700.    0. 0.0e+00 Collings                 *  -45.40
@@ -478,9 +482,9 @@ KC10H9      129 12337.    0. 0.0e+00 C6H6+C6H6-C2H4+H         * -999.99
 JC10H10     130 12987.    0. 0.0e+00 C6H6+C6H6-C2H4+2H        * -999.99
 KC10H10     130 12987.    0. 0.0e+00 C6H6+C6H6-C2H4+2H        * -999.99
 JC6H5CN      77  8537.    0. 0.0e+00 C6H5+CN                  * -999.99
-KC6H5CN      77  8537.    0. 0.0e+00 C6H5+CN                  * -999.99 
-JCNCH2CCH    65 18750.    0. 0.0e+00 Linear addition of atoms * -999.99
-KCNCH2CCH    65 18750.    0. 0.0e+00 Linear addition of atoms * -999.99
+KC6H5CN      77  8537.    0. 0.0e+00 C6H5+CN                  * -999.99
+JCNCH2CCH    65  9520.    0. 0.0e+00 Villadsen et al. 2022    * -999.99
+KCNCH2CCH    65  9520.    0. 0.0e+00 Villadsen et al. 2022    * -999.99
 Jc-C5H6      66 23900.    0. 0.0e+00 Linear addition of atoms * -999.99
 Kc-C5H6      66 23900.    0. 0.0e+00 Linear addition of atoms * -999.99
 Jc-C5H5CN    91 28050.    0. 0.0e+00 Linear addition of atoms * -999.99
