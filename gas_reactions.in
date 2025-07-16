@@ -185,9 +185,9 @@ CH2CHCN    CRP                    CN         C2H3                               
 CH3CCH     CRP                    H          CH2CCH                                        3.280e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1   183 1  1
 CH3CCH     CRP                    C3H4+      e-                                            5.300e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1   184 1  1
 CH3CCH     CRP                    CH2        C2H2                                          2.000e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1   185 1  1
-CH2CCH2    CRP                    H          CH2CCH                                        3.280e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1 12183 1  1
-CH2CCH2    CRP                    C3H4+      e-                                            5.300e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1 12184 1  1
-CH2CCH2    CRP                    CH2        C2H2                                          2.000e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1 12185 1  1
+CH2CCH2    CRP                    H          CH2CCH                                        3.280e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1 12184 1  1
+CH2CCH2    CRP                    C3H4+      e-                                            5.300e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1 12185 1  1
+CH2CCH2    CRP                    CH2        C2H2                                          2.000e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  2  -9999   9999  1 12186 1  1
 C5H2       CRP                    H          C5H                                           1.750e+03  0.000e+00  0.000e+00 1.25e+00 0.00e+00 logn  2  -9999   9999  1   186 1  1
 C6H        CRP                    H          C6                                            5.000e+03  0.000e+00  0.000e+00 1.50e+00 0.00e+00 logn  2  -9999   9999  1   187 1  1
 C7         CRP                    C2         C5                                            2.000e+02  0.000e+00  0.000e+00 1.25e+00 0.00e+00 logn  2  -9999   9999  1   188 1  3
@@ -259,10 +259,10 @@ CH3CCH     Photon                 H2         c-C3H2                             
 CH3CCH     Photon                 H2         l-C3H2                                        1.810e-10  0.000e+00  1.690e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2   254 1  1
 CH3CCH     Photon                 H          CH2CCH                                        2.940e-09  0.000e+00  1.720e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2   255 1  1
 CH3CCH     Photon                 C3H4+      e-                                            2.200e-09  0.000e+00  2.370e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2   256 1  1
-CH2CCH2    Photon                 H2         c-C3H2                                        1.810e-10  0.000e+00  1.690e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2 12186 1  1 
-CH2CCH2    Photon                 H2         l-C3H2                                        1.810e-10  0.000e+00  1.690e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2 12187 1  1
-CH2CCH2    Photon                 H          CH2CCH                                        2.940e-09  0.000e+00  1.720e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2 12188 1  1 
-CH2CCH2    Photon                 C3H4+      e-                                            2.200e-09  0.000e+00  2.370e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2 12189 1  1
+CH2CCH2    Photon                 H2         c-C3H2                                        1.810e-10  0.000e+00  1.690e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2 12187 1  1 
+CH2CCH2    Photon                 H2         l-C3H2                                        1.810e-10  0.000e+00  1.690e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2 12188 1  1
+CH2CCH2    Photon                 H          CH2CCH                                        2.940e-09  0.000e+00  1.720e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2 12189 1  1 
+CH2CCH2    Photon                 C3H4+      e-                                            2.200e-09  0.000e+00  2.370e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2 12190 1  1
 CH2CHC2H   Photon                 C          CH3CCH                                        1.130e-09  0.000e+00  1.640e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2   257 1  1
 CH2CHCHCH2 Photon                 C          CH3CHCH2                                      1.130e-09  0.000e+00  1.640e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2   258 1  1
 C5H2       Photon                 CCH        c-C3H                                         5.000e-12  0.000e+00  1.700e+00 2.00e+00 0.00e+00 logn  3  -9999   9999  2   259 1  1
@@ -8121,20 +8121,20 @@ CH         C2H4                   H          CH3CCH                             
 CCH        CH2CCH2                CH3C4H     H                                             3.000e-10  0.000e+00  0.000e+00 1.60e+00 0.00e+00 logn  4     10    300  3 12182 1  1
 CH         CH2CCH2                CH2CHC2H   H                                             3.200e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12183 1  1
 ! Formation of cyanoallene with rate from Carty et al. (2001) and branching ratios from Balucani et al. (2002)
-CN         CH2CCH2                CH2CCHCN   H                                             3.690e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12190 1  1
-CN         CH2CCH2                CNCH2CCH   H                                             4.100e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12191 1  1
+CN         CH2CCH2                CH2CCHCN   H                                             3.690e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12191 1  1
+CN         CH2CCH2                CNCH2CCH   H                                             4.100e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12192 1  1
 ! Ion-neutral destruction of CH2CCHCN. Assumed to be same products as CNCH2CCH. Dipole moment of 4.28 D from Bouchy et al. (1973) and polarizability from Woon and Herbst (2009)
-CH2CCHCN   H+                     HCN+       CH2CCH                                        1.000e+00  6.707e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12192 1  1
-CH2CCHCN   H3+                    H2         HCN+       CH2CCH                             1.000e+00  3.931e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12193 1  1
-CH2CCHCN   He+                    He         CN+        CH2CCH                             1.000e+00  3.429e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12194 1  1
-CH2CCHCN   C+                     C2N+       CH2CCH                                        1.000e+00  2.091e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12195 1  1
-CH2CCHCN   HCO+                   HCO        CN+        CH2CCH                             1.000e+00  1.486e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12196 1  1
-CH2CCHCN   H3O+                   H2O        HCN+       CH2CCH                             1.000e+00  1.736e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12197 1  1
+CH2CCHCN   H+                     HCN+       CH2CCH                                        1.000e+00  6.707e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12193 1  1
+CH2CCHCN   H3+                    H2         HCN+       CH2CCH                             1.000e+00  3.931e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12194 1  1
+CH2CCHCN   He+                    He         CN+        CH2CCH                             1.000e+00  3.429e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12195 1  1
+CH2CCHCN   C+                     C2N+       CH2CCH                                        1.000e+00  2.091e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12196 1  1
+CH2CCHCN   HCO+                   HCO        CN+        CH2CCH                             1.000e+00  1.486e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12197 1  1
+CH2CCHCN   H3O+                   H2O        HCN+       CH2CCH                             1.000e+00  1.736e-09  5.213e+00 2.00e+00 0.00e+00 logn  4     10    300  4 12198 1  1
 ! Adding radiative association of CH2CCH and CN to form CNCH2CCH assuming rate constant of 1e-10 according to Tennis et al. (2021)
-CN         CH2CCH                 CNCH2CCH   Photon                                        1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12198 1  1
+CN         CH2CCH                 CNCH2CCH   Photon                                        1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12199 1  1
 ! Adjusting CN + CH3CCH reaction: rate from Carty et al. (2001) and branching ratios from Abeysekera et al. (2015)
-CN         CH3CCH                 HC3N       CH3                                           2.706e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12199 1  1
-CN         CH3CCH                 CH3C3N     H                                             9.020e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12200 1  1
-CN         CH3CCH                 HCN        CH2CCH                                        4.920e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12201 1  1
+CN         CH3CCH                 HC3N       CH3                                           2.706e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12200 1  1
+CN         CH3CCH                 CH3C3N     H                                             9.020e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12201 1  1
+CN         CH3CCH                 HCN        CH2CCH                                        4.920e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12202 1  1
 ! Adding propargyl radical recomination with rates based on room temp measurements (Atkinson & Hudgens 1999, Fahr & Nayak 2000, and DeSain & Taatjes 2003)
-CH2CCH     CH2CCH                 C6H5       H                                             4.000e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12213 1  1
+CH2CCH     CH2CCH                 C6H5       H                                             4.000e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12203 1  1
