@@ -8136,3 +8136,5 @@ CN         CH2CCH                 CNCH2CCH   Photon                             
 CN         CH3CCH                 HC3N       CH3                                           2.706e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12199 1  1
 CN         CH3CCH                 CH3C3N     H                                             9.020e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12200 1  1
 CN         CH3CCH                 HCN        CH2CCH                                        4.920e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12201 1  1
+! Adding propargyl radical recomination with rates based on room temp measurements (Atkinson & Hudgens 1999, Fahr & Nayak 2000, and DeSain & Taatjes 2003)
+CH2CCH     CH2CCH                 C6H5       H                                             4.000e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12213 1  1
