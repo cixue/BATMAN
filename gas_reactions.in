@@ -8213,3 +8213,11 @@ He+        C9H4                   C9H3+      H          He                      
 He+        C9H4                   C7H2+      C2H2       He                                 5.120E-10 -5.000E-01  0.000E+00 0.00e+00 0.00e+00   NA  4     10    280  3  7896 1  1
 He+        C9H4                   C9H2+      H2         He                                 5.120E-10 -5.000E-01  0.000E+00 0.00e+00 0.00e+00   NA  4     10    280  3  7897 1  1
 OH         C2H5                   C2H6       O                                             1.040E-18  8.800E+00  2.500E+02 0.00e+00 0.00e+00   NA  4     10    280  3  7898 1  1
+! *****************************************************************************************************
+! MAJOR UPDATE: Model Reconciliation with Burkhardt et al. (2021)  on 7/14/25                         *
+! Reactions from the indene model (dr4-indene) used in Burkhardt et al. (2021) were aggregately added.*
+! Entries with duplicate reagents/products were re-evaluated against current literature and           *
+! internal communication with GOTHAM in order to resolve discrepancies between the two models.        *
+! Where Burkhardt et al. use C3H7, we use CH2CH2CH3.                                                  *
+! Burkhardt et al. (2021) - doi: 10.3847/2041-8213/abfd3a                                             *
+! *****************************************************************************************************
