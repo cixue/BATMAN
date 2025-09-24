@@ -4091,14 +4091,16 @@ JCH3CHCH2                         JH         JC3H5                              
 KH         KCH3CCH                KC3H5                                                    1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 11948 1  1
 KH         KC3H5                  KCH3CHCH2                                                1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 11949 1  1
 KC3H5                             KH         KCH3CCH                                       5.000e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00   NA 17  -9999   9999  1 11950 1  1
-KCH3CHCH2                         KH         KC3H5                                         5.000e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00   NA 17  -9999   9999  1 11951 1  1
+! 7/10/25: Deprecated; deferred to Burkhardt et al. (2021) in update on 7/14. Could not determine why rates differed, but Burkhardt intentionally replaced this rate with another.
+!KCH3CHCH2                         KH         KC3H5                                         5.000e+03  0.000e+00  0.000e+00 2.00e+00 0.00e+00   NA 17  -9999   9999  1 11951 1  1
 KC3H5                             KH         KCH3CCH                                       1.000e-09  0.000e+00  1.700e+00 1.00e+01 0.00e+00   NA 19  -9999   9999  2 11952 1  2
-KCH3CHCH2                         KH         KC3H5                                         1.000e-09  0.000e+00  1.700e+00 1.00e+01 0.00e+00   NA 19  -9999   9999  2 11953 1  2
-!******** Allene grain reactions ********                                                                                                                                      
-! Added by Alex Byrne 8/10/22                                                                                                                                                   
+! 7/10/25: Deprecated; deferred to Burkhardt et al. (2021) in update on 7/14. Could not determine why rates differed, but Burkhardt intentionally replaced this rate with another.
+!KCH3CHCH2                         KH         KC3H5                                         1.000e-09  0.000e+00  1.700e+00 1.00e+01 0.00e+00   NA 19  -9999   9999  2 11953 1  2
+!******** Allene grain reactions ********
+! Added by Alex Byrne 8/10/22
 ! Necessary grain reactions for inclusion
-! of new species allene (CH2CCH2)                                                                                                                                      
-!*****************************************                                                                                                                                      
+! of new species allene (CH2CCH2)
+!*****************************************
 CH2CCH2                           JCH2CCH2                                                 1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 99  -9999   9999  0 11954 1  1
 JCH2CCH2                          CH2CCH2                                                  1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 15  -9999   9999  0 11955 1  1
 JCH2CCH2                          CH2CCH2                                                  1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 16  -9999   9999  0 11956 1  1
