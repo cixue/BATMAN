@@ -4129,15 +4129,6 @@ JCH2CCHCN                         CH2CCHCN                                      
 ! FIRST GROUP OF REACTIONS: This group of entries was added directly from the indene model because
 ! the reactions they described were not represented in this network prior to 7/14/25 and so were
 ! effectively uncontested. All grain reactions in this update fall into this group.
-JH2        JC3                    Jc-C3H     JH                                            1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13099 1  1
-JH2        JC3                    c-C3H      H                                             1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13100 1  1
-JH2        JC3                    Jl-C3H     JH                                            1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13101 1  1
-JH2        JC3                    l-C3H      H                                             1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13102 1  1
-JH2        Jl-C3H                 Jl-C3H2    JH                                            1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13103 1  1
-JH2        Jl-C3H                 l-C3H2     H                                             1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13104 1  1
-KH2        KC3                    Kc-C3H     KH                                            1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13105 1  1
-KH2        KC3                    Kl-C3H     KH                                            1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13106 1  1
-KH2        Kl-C3H                 Kl-C3H2    KH                                            1.000e+00  0.000e+00  0.000e+00 0.00e+00 0.00e+00   NA 14  -9999   9999  0 13107 1  1
 JCH        JCH3CHCH2              JCH3       JCH3CCH                                       0.100E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 13108 1  1
 JCH        JCH3CHCH2              CH3        CH3CCH                                        0.100E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 13109 1  1
 KCH        KCH3CHCH2              KCH3       KCH3CCH                                       0.100E+00  0.000E+00  0.000E+00 0.00E+00 0.00E+00   NA 14  -9999   9999  0 13110 1  1
