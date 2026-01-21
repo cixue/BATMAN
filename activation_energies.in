@@ -236,13 +236,14 @@ KO         KCH3CHCH2              -> KC3H6O                                     
 !KH         KCH3CCH                -> KC3H5                                                   2.01e+03   From Jean-Christophe Loison
 JH         JCH2CHCH2              -> JC3H5                                                   1.01e+03
 KH         KCH2CHCH2              -> KC3H5                                                   1.01e+03
-JH         Jc-C3H2                -> JCH2CCH                                                 1.21e+03   C=_C triple bond
-JH2        JC3                    -> Jc-C3H     JH                                           4.20e+03
-JH2        JC3                    -> Jl-C3H     JH                                           4.20e+03
-JH2        Jl-C3H                 -> Jl-C3H2    JH                                           4.20e+03
-KH         Kc-C3H2                -> KCH2CCH                                                 1.21e+03   C=_C triple bond
-KH2        KC3                    -> Kc-C3H     KH                                           4.20e+03
-KH2        KC3                    -> Kl-C3H     KH                                           4.20e+03
-KH2        Kl-C3H                 -> Kl-C3H2    KH                                           4.20e+03
+! Removing the following C3Hn reactions based on data from Loison et al. 2017
+!JH         Jc-C3H2                -> JCH2CCH                                                 1.21e+03   C=_C triple bond
+!JH2        JC3                    -> Jc-C3H     JH                                           4.20e+03
+!JH2        JC3                    -> Jl-C3H     JH                                           4.20e+03
+!JH2        Jl-C3H                 -> Jl-C3H2    JH                                           4.20e+03
+!KH         Kc-C3H2                -> KCH2CCH                                                 1.21e+03   C=_C triple bond
+!KH2        KC3                    -> Kc-C3H     KH                                           4.20e+03
+!KH2        KC3                    -> Kl-C3H     KH                                           4.20e+03
+!KH2        Kl-C3H                 -> Kl-C3H2    KH                                           4.20e+03
 ! 7/10/25: Deprecated in Burkhardt et al. (2021) yet unchallenged in BATMAN; included for completeness.
 !JH2        JC3        JC3H       JH                     2.10e+03
