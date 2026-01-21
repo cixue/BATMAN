@@ -211,4 +211,38 @@ KOH        KCO                    -> KHOCO                                      
 !      by AR to calculate adsorption energies.
 !-------------------------------------------------------------
 
-
+!**********************************************
+! These are adapted from Burkhardt et al. (2021). Where Burkhardt et al. provided values for a reaction with ambiguous documentation,
+! and this network has already provided a value and stated its source, this network's values were favored. Otherwise, these represent new entries.
+JO         JO3                    -> JO2        JO2                                          2.06E+03
+JOH        JO3                    -> JO2H       JO2                                          9.40E+02
+JH         Jc-C3H2                -> JCCCH3                                                  1.21e+03   C=_C triple bond
+JH         Jl-C3H2                -> JCCCH3                                                  1.21e+03   C=_C triple bond
+JH         JO2H                   -> JO2        JH2                                          3.50e+02   M84Try this as well N
+JH         JO2H                   -> JOH        JOH                                          9.50e+02   M84Try this as well N
+JH         JO2H                   -> JHOOH                                                   9.50e+02   M84Try this as well N
+JH         JO2H                   -> JO         JH2O                                         5.00e+02   M84Try this as well N
+KH         Kc-C3H2                -> KCCCH3                                                  1.21e+03   C=_C triple bond
+KH         Kl-C3H2                -> KCCCH3                                                  1.21e+03   C=_C triple bond
+KH         KO2H                   -> KO2        KH2                                          3.50e+02  M84Try this as well N
+KH         KO2H                   -> KOH        KOH                                          9.50e+02  M84Try this as well N
+KH         KO2H                   -> KHOOH                                                   9.50e+02  M84Try this as well N
+KH         KO2H                   -> KO         KH2O                                         5.00e+02  M84Try this as well N
+KOH        KO3                    -> KO2H       KO2                                          9.40E+02
+KO         KO3                    -> KO2        KO2                                          2.06E+03
+JO         JCH3CHCH2              -> JC3H6O                                                  3.12E+02
+KO         KCH3CHCH2              -> KC3H6O                                                  3.12E+02
+JH         JCH3CCH                -> JC3H5                                                   2.01e+03   From Jean-Christophe Loison
+KH         KCH3CCH                -> KC3H5                                                   2.01e+03   From Jean-Christophe Loison
+JH         JCH2CHCH2              -> JC3H5                                                   1.01e+03
+KH         KCH2CHCH2              -> KC3H5                                                   1.01e+03
+JH         Jc-C3H2                -> JCH2CCH                                                 1.21e+03   C=_C triple bond
+JH2        JC3                    -> Jc-C3H     JH                                           4.20e+03
+JH2        JC3                    -> Jl-C3H     JH                                           4.20e+03
+JH2        Jl-C3H                 -> Jl-C3H2    JH                                           4.20e+03
+KH         Kc-C3H2                -> KCH2CCH                                                 1.21e+03   C=_C triple bond
+KH2        KC3                    -> Kc-C3H     KH                                           4.20e+03
+KH2        KC3                    -> Kl-C3H     KH                                           4.20e+03
+KH2        Kl-C3H                 -> Kl-C3H2    KH                                           4.20e+03
+! 7/10/25: Deprecated in Burkhardt et al. (2021) yet unchallenged in BATMAN; included for completeness.
+!JH2        JC3        JC3H       JH                     2.10e+03
