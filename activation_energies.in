@@ -232,8 +232,8 @@ KOH        KO3                    -> KO2H       KO2                             
 KO         KO3                    -> KO2        KO2                                          2.06E+03
 JO         JCH3CHCH2              -> JC3H6O                                                  3.12E+02
 KO         KCH3CHCH2              -> KC3H6O                                                  3.12E+02
-JH         JCH3CCH                -> JC3H5                                                   2.01e+03   From Jean-Christophe Loison
-KH         KCH3CCH                -> KC3H5                                                   2.01e+03   From Jean-Christophe Loison
+!JH         JCH3CCH                -> JC3H5                                                   2.01e+03   From Jean-Christophe Loison
+!KH         KCH3CCH                -> KC3H5                                                   2.01e+03   From Jean-Christophe Loison
 JH         JCH2CHCH2              -> JC3H5                                                   1.01e+03
 KH         KCH2CHCH2              -> KC3H5                                                   1.01e+03
 JH         Jc-C3H2                -> JCH2CCH                                                 1.21e+03   C=_C triple bond
