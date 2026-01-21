@@ -80,7 +80,8 @@ Jc-C3H2      38  5900.    0. 0.0e+00 Wakelam et al. 2017      * +137.83
 Jl-C3H2      38  3387.    0. 0.0e+00 C3H+H                    * +137.83
 JCH2CCH      39  3300.    0. 0.0e+00 Wakelam et al. 2017      *  +82.00
 JCH3CCH      40  4400.    0. 0.0e+00 Behmard et al. 2019      *  +47.70
-JCH2CCH2     40  4400.    0. 0.0e+00 Same as CH3CCH           *  +47.21
+! 7/10/25: Deprecated; updated from Burkhardt et al. (2021).
+!JCH2CCH2     40  4400.    0. 0.0e+00 Same as CH3CCH           *  +47.21
 JCH2CCHCN    65  9520.    0. 0.0e+00 Villadsen et al. 2022    * -999.99
 JC4H         49  3737.    0. 0.0e+00 C3H+C                    * +191.11
 JC4H2        50  4187.    0. 0.0e+00 C4H+H                    * +105.00
@@ -495,8 +496,10 @@ JC4H3CN      77 22750.    0. 0.0e+00 Linear addition of atoms * -999.99
 KC4H3CN      77 22750.    0. 0.0e+00 Linear addition of atoms * -999.99
 JCNCHCCH     64 18350.    0. 0.0e+00 Linear addition of atoms * -999.99
 KCNCHCCH     64 18350.    0. 0.0e+00 Linear addition of atoms * -999.99
-JC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
-KC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
+! 7/10/25: Deprecated; sourced from Burkhardt et al. (2021).
+!JC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
+! 7/10/25: Deprecated; sourced from Burkhardt et al. (2021).
+!KC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
 JCH3CHCH2    42  3800.    0. 0.0e+00 Behmard et al. 2019      *   +4.80
 KCH3CHCH2    42  3800.    0. 0.0e+00 Behmard et al. 2019      *   +4.80
 JCH2CH2CH3   43  3100.    0. 0.0e+00 CH3CHCH2+H               *  +27.00
