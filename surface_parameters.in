@@ -80,7 +80,8 @@ Jc-C3H2      38  5900.    0. 0.0e+00 Wakelam et al. 2017      * +137.83
 Jl-C3H2      38  3387.    0. 0.0e+00 C3H+H                    * +137.83
 JCH2CCH      39  3300.    0. 0.0e+00 Wakelam et al. 2017      *  +82.00
 JCH3CCH      40  4400.    0. 0.0e+00 Behmard et al. 2019      *  +47.70
-JCH2CCH2     40  4400.    0. 0.0e+00 Same as CH3CCH           *  +47.21
+! 7/10/25: Deprecated; updated from Burkhardt et al. (2021).
+!JCH2CCH2     40  4400.    0. 0.0e+00 Same as CH3CCH           *  +47.21
 JCH2CCHCN    65  9520.    0. 0.0e+00 Villadsen et al. 2022    * -999.99
 JC4H         49  3737.    0. 0.0e+00 C3H+C                    * +191.11
 JC4H2        50  4187.    0. 0.0e+00 C4H+H                    * +105.00
@@ -495,8 +496,10 @@ JC4H3CN      77 22750.    0. 0.0e+00 Linear addition of atoms * -999.99
 KC4H3CN      77 22750.    0. 0.0e+00 Linear addition of atoms * -999.99
 JCNCHCCH     64 18350.    0. 0.0e+00 Linear addition of atoms * -999.99
 KCNCHCCH     64 18350.    0. 0.0e+00 Linear addition of atoms * -999.99
-JC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
-KC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
+! 7/10/25: Deprecated; sourced from Burkhardt et al. (2021).
+!JC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
+! 7/10/25: Deprecated; sourced from Burkhardt et al. (2021).
+!KC3H5        41  3100.    0. 0.0e+00 C3H4+H                   *  +41.00
 JCH3CHCH2    42  3800.    0. 0.0e+00 Behmard et al. 2019      *   +4.80
 KCH3CHCH2    42  3800.    0. 0.0e+00 Behmard et al. 2019      *   +4.80
 JCH2CH2CH3   43  3100.    0. 0.0e+00 CH3CHCH2+H               *  +27.00
@@ -507,3 +510,49 @@ JC4H5CN      79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
 KC4H5CN      79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
 Jc-C5H5N     79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
 Kc-C5H5N     79 24050.    0. 0.0e+00 Linear addition of atoms * -999.99
+! UPDATE: Aggregately added from Burkhardt et al. (2021)
+! 7/10/25: Neither entry on this compound has a source attached, so this was left for completeness but deprecated with preference for preexisting entry.
+!JCH2CHCHCH2  54  5987.    0. 0.0e+00 C4H5+H                   *  +38.80
+! 7/10/25: Neither entry on this compound has a source attached, so this was left for completeness but deprecated with preference for preexisting entry.
+!KCH2CHCHCH2  54  5987.    0. 0.0e+00 C4H5+H                   *  +38.80
+JCH2CCH2     40  3000.    0. 0.0e+00 Wakelam 2017             *  190.50
+! 7/10/25: Neither entry on this compound has a source attached, so this was left for completeness but deprecated with preference for preexisting entry.
+!KCH2CCH2     40  5700.    0. 0.0e+00 Same as H2O              *  190.50
+JC3H5        41  3100.    0. 0.0e+00 Wakelam 2017             *  +41.00
+KC3H5        41  3100.    0. 0.0e+00 Wakelam 2017             *  +41.00
+JH2C6N       88 26100.    0. 0.0e+00 C2H6+O                   * -999.99
+JHC3HC3N     88 26100.    0. 0.0e+00 C2H6+O                   * -999.99
+JH2CCCHC3N   89 26750.    0. 0.0e+00 C2H6+O                   * -999.99
+KH2C6N       88 26100.    0. 0.0e+00 C2H6+O                   * -999.99
+KHC3HC3N     88 26100.    0. 0.0e+00 C2H6+O                   * -999.99
+KH2CCCHC3N   89 26750.    0. 0.0e+00 C2H6+O                   * -999.99
+JC9H8       116 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC9H8       116 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+JC6H5C2H3   104 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC6H5C2H3   104 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+JC6H5CH3     92 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC6H5CH3     92 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+JC5H8        68 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC5H8        68 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+JC9H7CN     141 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC9H7CN     141 11687.    0. 0.0e+00 Estimated based on Napth * -999.99
+JC6H8        80 15687.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC6H8        80 15687.    0. 0.0e+00 Estimated based on Napth * -999.99
+JC10H7      127 44550.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC10H7      127 44550.    0. 0.0e+00 Estimated based on Napth * -999.99
+JC11H7      139 48550.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC11H7      139 48550.    0. 0.0e+00 Estimated based on Napth * -999.99
+JC11H8      140 49200.    0. 0.0e+00 Estimated based on Napth * -999.99
+KC11H8      140 49200.    0. 0.0e+00 Estimated based on Napth * -999.99
+JCCCH3       39  3837.    0. 0.0e+00 Same as CH2CCH           *  +82.00
+KCCCH3       39  3837.    0. 0.0e+00 Same as CH2CCH           *  +82.00
+JC3H7        43  3100.    0. 0.0e+00 Wakelam 2017             *  +27.00
+KC3H7        43  3100.    0. 0.0e+00 Wakelam 2017             *  +27.00
+! 7/10/25: Included for completeness but deprecated with preference for pre-existing entry since its source is recent.
+!JC3H8        44  1600.    0. 0.0e+00 Wakelam 2017             *  -25.00
+! 7/10/25: Included for completeness but deprecated with preference for pre-existing entry since its source is recent.
+!KC3H8        44  1600.    0. 0.0e+00 Wakelam 2017             *  -25.00
+JC4H8        56  1875.    0. 0.0e+00 C3H8+CH-H                *  -25.00
+KC4H8        56  1875.    0. 0.0e+00 C3H8+CH-H                *  -25.00
+JCH3C8H     112  9087.    0. 0.0e+00 C9H4                     * +200.00
+KCH3C8H     112  9087.    0. 0.0e+00 C9H4                     * +200.00
