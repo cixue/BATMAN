@@ -8410,7 +8410,9 @@ C3H5       C3H8                   CH3CHCH2   CH2CH2CH3                          
 C6H8       He+                    CH3        C5H5+      He                                 2.000e-01  3.771e-09  1.283e+00 2.00e+00 0.00e+00 logn  4     10    800  4 12398 1  1
 CH3CCH     C6H2+                  C9H5+      H                                             1.000e+00  5.958e-10  1.243e+00 2.00e+00 0.00e+00 logn  4     10    800  4 12399 1  1
 N2+        C3H8                   N2         CH4        C2H4+                              2.210e-10  0.000e+00  0.000e+00 1.30e+00 0.00e+00 logn  4    298    298  3 12400 1  1
-C9H8       CN                     C9H7CN     H                                             1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4  -9999   9999  3 12401 1  1
+! Updating CN + C9H8 using 1/6th of classical capture theory rate from 2- and 4-cyanopyrene paper (Wenzel et al. 2025)
+!C9H8       CN                     C9H7CN     H                                             1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4  -9999   9999  3 12401 1  1
+C9H8       CN                     C9H7CN     H                                             8.140e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4  -9999   9999  3 12401 1  1
 C6H8       He+                    CCH        C4H7+      He                                 2.000e-01  3.771e-09  1.283e+00 2.00e+00 0.00e+00 logn  4     10    800  4 12402 1  1
 C9H7CN     HCO+                   C6H5+      CH2CCH     CO         CN                      2.000e-01  1.796e-09  3.882e+00 2.00e+00 0.00e+00 logn  4     10    800  4 12403 1  1
 C4H        CH2CH2CH3              CH3CHCH2   C4H2                                          1.000e-11  0.000e+00  0.000e+00 1.00e+01 1.00e+02 logn  4     50    200  3 12404 1  1
