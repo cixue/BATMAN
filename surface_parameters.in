@@ -558,3 +558,16 @@ JCH3C8H     112  9087.    0. 0.0e+00 C9H4                     * +200.00
 KCH3C8H     112  9087.    0. 0.0e+00 C9H4                     * +200.00
 JC7H5        89  5000.    0. 0.0e+00 Same as benzene          * -999.99
 KC7H5        89  5000.    0. 0.0e+00 Same as benzene          * -999.99
+! 9/18/26: New species from Bordeaux update
+Jc-C6H4      76  6687.    0. 0.0e+00 Same as Jl-C6H4          * -999.99
+Kc-C6H4      76  6687.    0. 0.0e+00 Same as Kl-C6H4          * -999.99
+Jl-C6H6      78  5000.    0. 0.0e+00 Same as Jc-C6H6          * -999.99
+Kl-C6H6      78  7587.    0. 0.0e+00 Same as Kc-C6H6          * -999.99
+JC6H5C2H    102 11687.    0. 0.0e+00 Same as JC6H5C2H3        * -999.99
+KC6H5C2H    102 11687.    0. 0.0e+00 Same as KC6H5C2H3        * -999.99
+JC6H5CH2     91 11687.    0. 0.0e+00 Same as JC6H5CH3         * -999.99
+KC6H5CH2     91 11687.    0. 0.0e+00 Same as KC6H5CH3         * -999.99
+Jt-C3H2      38  3387.    0. 0.0e+00 Same as Jl-C3H2          * +137.83
+Kt-C3H2      38  5700.    0. 0.0e+00 Same as Kl-C3H2          * +137.83
+Jc-C5H5      65 23900.    0. 0.0e+00 Same as Jc-C5H6          * -999.99
+Kc-C5H5      65 23900.    0. 0.0e+00 Same as Kc-C5H6          * -999.99
