@@ -8664,3 +8664,14 @@ C6H5CCH2+  e-                     C6H5C2H    H                                  
 C6H5CNH+   e-                     C6H5CN     H                                             1.500e-06 -8.300e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12659 1  1
 C6H5CNH+   e-                     c-C6H5     HCN                                           2.500e-07 -8.300e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12660 1  1
 C6H5CNH+   e-                     c-C6H5     HNC                                           2.500e-07 -8.300e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12661 1  1
+! Adding reactions from Jacovella et al. (2026) regarding cyclopentadiene chemistry
+c-C5H5     H3+                    c-C5H6+    H2                                            2.000e-09 -5.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12662 1  1
+c-C5H6     C+                     c-C5H6+    C                                             2.400e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12663 1  1
+c-C5H6+    O                      C4H5+      H          CO                                 1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12664 1  1
+c-C5H5     HCO+                   c-C5H6+    CO                                            1.000e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12665 1  1
+c-C5H5     H                      c-C5H6     Photon                                        2.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12666 1  1
+c-C5H5     N                      CH2CHC2H   HCN                                           6.000e-11  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12667 1  1
+c-C5H5     O                      C5H4       OH                                            1.100e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12668 1  1 ! Should form c-C5H4O + H but c-C5H4O not in model
+c-C5H6+    e-                     c-C5H5     H                                             1.000e-06 -3.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 12669 1  1
+c-C5H6+    e-                     CH3CCH     C2H2                                          5.000e-07 -3.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 12670 1  1
+c-C5H6+    e-                     CH2CCH2    C2H2                                          5.000e-07 -3.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  8     10    300  3 12671 1  1
