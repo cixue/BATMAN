@@ -8521,3 +8521,10 @@ C10CNH7+   e-                     C10H7      CN                                 
 C10H6+     e-                     H2         H2         C10H2                              3.000e-07 -5.000e-01  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12523 1  1 ! Adapted from C9H5+ + e-
 C6H6+      C4H2                   C10H8+     Photon                                        1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12528 1  1 ! Bohme 1992
 C6H6       C4H3+                  C10H8+     H                                             1.000e-10  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12529 1  1 ! Ghesquiere & Talbi 2013
+C6H5       H+                     C6H5+      H                                             2.000e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12530 1  1 ! UMIST estimate
+C6H5       C+                     C6H5+      C                                             1.000e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12531 1  1 ! UMIST estimate
+C6H5       H3+                    C6H6+      H2                                            1.000e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12532 1  1 ! UMIST estimate
+C6H5       H3O+                   C6H6+      H2O                                           1.000e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12533 1  1 ! UMIST estimate
+C6H5       HCO+                   C6H6+      CO                                            1.000e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12534 1  1 ! UMIST estimate
+C6H5       N2H+                   C6H6+      N2                                            1.000e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12535 1  1 ! UMIST estimate
+C6H5       He+                    C6H3+      H2         He                                 2.000e-09  0.000e+00  0.000e+00 2.00e+00 0.00e+00 logn  4     10    300  3 12536 1  1 ! UMIST estimate
